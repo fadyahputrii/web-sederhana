@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulasi dan Perencanaan Karier</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fff; }
+    header { background: #cceeff; padding: 20px; font-size: 20px; font-weight: bold; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; padding: 10px; background: #f9f9f9; }
+    nav button { padding: 10px; border: 1px solid #ccc; background: white; border-radius: 5px; cursor: pointer; }
+    .section { padding: 20px; }
+    .card-container { display: flex; gap: 10px; flex-wrap: wrap; }
+    .card { background: #e0f5ff; padding: 15px; border-radius: 10px; flex: 1; min-width: 200px; border: 1px solid #ccc; }
+    .card h4 { margin: 0 0 10px 0; }
+    .kursus, .forum, .tren { margin-top: 20px; }
+    .button-primary { background: #f4e400; padding: 15px; text-align: center; font-weight: bold; border: none; width: 100%; margin: 20px 0; border-radius: 5px; cursor: pointer; }
+    .statistik { display: flex; gap: 10px; }
+    .stat { border: 1px solid #ccc; border-radius: 10px; padding: 15px; flex: 1; }
+  </style>
+</head>
+<body>
+
+  <header>Simulasi dan Perencanaan Karier</header>
+
+  <nav class="navbar">
+    <a href="Beranda.html">Beranda</a>
+    <a href="Tes Kepribadian.html">Tes Kepribadian</a>
+    <a href="Simulasi Karir.html">Simulasi Karir</a>
+    <a href="Tren Industri.html">Tren Industri</a>
+    <a href="Kursus dan Pelatihan.html">Kursus dan Pelatihan</a>
+    <a href="Forum dan Mentoring.html">Forum dan Mentoring</a>
+    <a href="Lowongan Pekerjaan.html">Lowongan Pekerjaan</a>
+  </nav>
+
+  <!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tren Industri</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="navbar-placeholder"></div>
+
+  <main>
+    <h2>Tren Industri</h2>
+    <div class="industry-card">
+      <h3>Teknologi Cloud</h3>
+      <span class="tag">Cloud Computing</span>
+      <span class="tag">Big Data</span>
+      <p>Berkembang pesat, tingkat permintaan tinggi dari perusahaan</p>
+      <p><img src="avatar.png" class="avatar" /> John Doe</p>
+    </div>
+
+    <button class="btn-primary">Cari Lowongan Pekerjaan</button>
+
+    <div class="stats">
+      <div class="card">
+        <h4>Jumlah Pengguna</h4>
+        <p>5,000+<br><small>+15% sejak bulan lalu</small></p>
+      </div>
+      <div class="card">
+        <h4>Tes Kepribadian Terselesaikan</h4>
+        <p>1,200+<br><small>+20% sejak bulan lalu</small></p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    fetch('navbar.html')
+      .then(res => res.text())
+      .then(data => {
+        document.getElementById('navbar-placeholder').innerHTML = data;
+      });
+  </script>
+
+<button class="button-primary">Cari Lowongan Pekerjaan</button>
+
+<h2>Statistik Karir</h2>
+<div class="statistik">
+  <div class="stat">
+    <h4>Jumlah Pengguna</h4>
+    <p><strong>5,000+</strong><br>+15% sejak bulan lalu</p>
+  </div>
+  <div class="stat">
+    <h4>Tes Kepribadian Terselesaikan</h4>
+    <p><strong>1,200+</strong><br>+20% sejak bulan lalu</p>
+  </div>
+</div>
+</div>
+
+</body>
+</html>

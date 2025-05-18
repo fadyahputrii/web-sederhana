@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulasi dan Perencanaan Karier</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background: #fff; }
+    header { background: #cceeff; padding: 20px; font-size: 20px; font-weight: bold; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px; padding: 10px; background: #f9f9f9; }
+    nav button { padding: 10px; border: 1px solid #ccc; background: white; border-radius: 5px; cursor: pointer; }
+    .section { padding: 20px; }
+    .card-container { display: flex; gap: 10px; flex-wrap: wrap; }
+    .card { background: #e0f5ff; padding: 15px; border-radius: 10px; flex: 1; min-width: 200px; border: 1px solid #ccc; }
+    .card h4 { margin: 0 0 10px 0; }
+    .kursus, .forum, .tren { margin-top: 20px; }
+    .button-primary { background: #f4e400; padding: 15px; text-align: center; font-weight: bold; border: none; width: 100%; margin: 20px 0; border-radius: 5px; cursor: pointer; }
+    .statistik { display: flex; gap: 10px; }
+    .stat { border: 1px solid #ccc; border-radius: 10px; padding: 15px; flex: 1; }
+  </style>
+</head>
+<body>
+
+  <header>Simulasi dan Perencanaan Karier</header>
+
+  <nav class="navbar">
+    <a href="Beranda.html">Beranda</a>
+    <a href="Tes Kepribadian.html">Tes Kepribadian</a>
+    <a href="Simulasi Karir.html">Simulasi Karir</a>
+    <a href="Tren Industri.html">Tren Industri</a>
+    <a href="Kursus dan Pelatihan.html">Kursus dan Pelatihan</a>
+    <a href="Forum dan Mentoring.html">Forum dan Mentoring</a>
+    <a href="Lowongan Pekerjaan.html">Lowongan Pekerjaan</a>
+  </nav>
+
+  <body>
+    <div id="navbar-placeholder"></div>
+  
+    <main>
+      <!-- Konten halaman Beranda -->
+    </main>
+  
+    <script>
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar-placeholder').innerHTML = data;
+        });
+    </script>
+  </body>
+  
+  
+
+  <div class="section">
+    <h2>Tes Kepribadian</h2>
+    <p>Temukan karir yang cocok untukmu</p>
+    <div class="card-container">
+      <div class="card">
+        <h4>Premium</h4>
+        <p>Deskripsi Gambar</p>
+        <strong>Durasi: 30 Menit</strong>
+      </div>
+      <div class="card">
+        <h4>Gratis</h4>
+        <p>Deskripsi Gambar</p>
+        <strong>Durasi: 15 Menit</strong>
+      </div>
+    </div>
+
+    <div class="kursus">
+      <h2>Kursus dan Pelatihan</h2>
+      <ul>
+        <li><strong>Java Programming</strong> – Intermediate Level (12 Modul)</li>
+        <li><strong>Data Analysis</strong> – Beginner Level (8 Modul)</li>
+      </ul>
+    </div>
+
+    <div class="tren">
+      <h2>Tren Industri</h2>
+      <div class="card" style="background:#ddeeff;">
+        <h4>Teknologi Cloud</h4>
+        <p><span style="background:#ccc; padding:2px 4px;">Cloud Computing</span>
+           <span style="background:#ccc; padding:2px 4px;">Big Data</span></p>
+        <p>Berkembang pesat, tingkat permintaan tinggi dari perusahaan</p>
+        <small>Oleh John Doe</small>
+      </div>
+    </div>
+
+    <div class="forum">
+      <h2>Forum & Mentoring</h2>
+      <p><strong>Jane Smith</strong> – 2 Jam yang lalu, Jakarta</p>
+      <div class="card" style="height:150px;">Deskripsi Gambar</div>
+      <p>Mentorship session on career development happening next week. Join us!</p>
+      <span style="background:#eee; padding:2px 6px;">Mentorship</span>
+    </div>
+
+    <button class="button-primary">Cari Lowongan Pekerjaan</button>
+
+    <h2>Statistik Karir</h2>
+    <div class="statistik">
+      <div class="stat">
+        <h4>Jumlah Pengguna</h4>
+        <p><strong>5,000+</strong><br>+15% sejak bulan lalu</p>
+      </div>
+      <div class="stat">
+        <h4>Tes Kepribadian Terselesaikan</h4>
+        <p><strong>1,200+</strong><br>+20% sejak bulan lalu</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
